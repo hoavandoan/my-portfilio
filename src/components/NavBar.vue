@@ -1,5 +1,5 @@
 <template>
-    <header :class="{'shadow-md' : !isAtTop}" class="header fixed sm:px-4 sm:py-3 w-full m-0 left-0 z-10 top-0 sm:ml-0">
+    <header :class="{'shadow-md ' : !isAtTop}" class="header fixed sm:px-4 sm:py-3 w-full m-0 left-0 z-50 top-0 sm:ml-0">
         <div class="sm:container sm:mx-auto flex items-center justify-between px-4 py-3 sm:p-0">
             <div>
                 <img src="@/assets/logo.png" alt="" height="50" width="50">

@@ -22,7 +22,7 @@ body {
   opacity: 0.9;
   font-family: "roboto", sans-serif;
   font-size: 14px;
-  background-color: #fff;
+  background-color: #f7fafc;
   color: $dark;
   transition: background-color .2s ease, color .2s ease;
 }
@@ -35,7 +35,7 @@ body {
     color: white;
 
     .header {
-      background-color: transparent;
+      background-color: lighten($dark, 5%);
       color: white;
     }
 
@@ -55,7 +55,12 @@ body {
   }
 }
 
+svg {
+  fill: #fff;
+}
+
 .header {
+  background-color: #f7fafc;
   color: $dark;;
 }
 

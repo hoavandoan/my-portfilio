@@ -14,7 +14,7 @@ body {
   opacity: 0.9;
   font-family: "roboto", sans-serif;
   font-size: 14px;
-  background-color: #fff;
+  background-color: #f7fafc;
   color: #171717;
   transition: background-color .2s ease, color .2s ease; }
 
@@ -22,7 +22,7 @@ body.dark-mode {
   background-color: #242424;
   color: white; }
   body.dark-mode .header {
-    background-color: transparent;
+    background-color: #242424;
     color: white; }
   body.dark-mode .toggle {
     transform: translateX(19px); }
@@ -33,7 +33,11 @@ body.dark-mode {
       left: 40%;
       transform: translate(-10%, -40%), rotate(-35deg); }
 
+svg {
+  fill: #fff; }
+
 .header {
+  background-color: #f7fafc;
   color: #171717; }
 
 .mode-toggle {
