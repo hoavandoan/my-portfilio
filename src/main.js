@@ -1,4 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import VueParticles from 'vue-particles'
+// import VueCookies from 'vue-cookies'
+import './assets/css/index.css'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.use(VueParticles)
+// app.use(VueCookies)
+
+app.mount('#app')
