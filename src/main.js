@@ -4,14 +4,14 @@ import VueParticles from 'vue-particles'
 // import VueCookies from 'vue-cookies'
 import './assets/css/index.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope, faMapMarkerAlt, faLocationArrow } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faTwitter, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 const app = createApp(App)
 
 
-library.add(faPhone, faEnvelope, faMapMarkerAlt, faFacebookF, faTwitter, faGithub, faLinkedinIn)
+library.add(faPhone, faEnvelope, faMapMarkerAlt, faLocationArrow, faFacebookF, faTwitter, faGithub, faLinkedinIn)
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.config.productionTip = false
 
