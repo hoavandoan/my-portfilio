@@ -5,7 +5,11 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: () => ({
+         'footer-texture': "url('/src/assets/images/about.png')",
+        })
+    },
   },
   variants: {},
   plugins: [],

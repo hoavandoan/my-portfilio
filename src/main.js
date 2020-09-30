@@ -12,7 +12,7 @@ const app = createApp(App)
 
 
 library.add(faPhone, faEnvelope, faMapMarkerAlt, faLocationArrow, faFacebookF, faTwitter, faGithub, faLinkedinIn)
-app.component('font-awesome-icon', FontAwesomeIcon)
+app.component('FontAwesomeIcon', FontAwesomeIcon)
 app.config.productionTip = false
 
 

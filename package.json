@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "watch-scss": "node-sass --watch src/assets/scss --output src/assets/css/",
     "tailwind": "npx tailwindcss build assets/css/tailwind.css -o .tailwind/tailwind.css"
   },
