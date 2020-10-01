@@ -1,5 +1,5 @@
 <template>
-  <section id="experience" class="w-full h-auto pt-20">
+  <section id="experience" class="w-full h-auto py-20">
     <div class="container mx-auto">Experiences </div>
   </section>
 </template>

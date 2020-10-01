@@ -5,7 +5,7 @@
       <overview />
       <about />
       <skill />
-      <experience />
+      <!--      <experience />-->
       <contact />
     </div>
   </div>
@@ -16,15 +16,15 @@
   import {onMounted} from 'vue'
   import {useDarkMode} from "./hooks/useDarkMode";
   import NavBar from "./components/NavBar";
-  import Overview from "./components/Overview";
-  import About from "./components/About";
-  import Skill from "./components/Skill";
-  import Experience from "./components/Experience";
-  import Contact from "./components/Contact";
+  import Overview from "./components/sections/Overview";
+  import About from "./components/sections/About";
+  import Skill from "./components/sections/Skill";
+  // import Experience from "./components/Experience";
+  import Contact from "./components/sections/Contact";
 
 export default {
   name: 'App',
-  components: {Contact, Experience, Skill, About, Overview, NavBar},
+  components: {Contact, /*Experience,*/ Skill, About, Overview, NavBar},
   setup() {
     const {dark, light} = useDarkMode()
 

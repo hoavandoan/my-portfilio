@@ -11,6 +11,9 @@ module.exports = {
         })
     },
   },
-  variants: {},
+  variants: {
+    backgroundImage: ['responsive', 'hover', 'focus'],
+    gridTemplateColumns: ['responsive', 'hover', 'focus'],
+  },
   plugins: [],
 }

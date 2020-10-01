@@ -1,12 +1,12 @@
 <template>
-  <section id="about" class="w-full pt-20">
+  <section id="about" class="w-full py-20">
     <div class="container w-full mx-auto">
-      <div class="flex flex-wrap">
-        <div class="w-full md:w-1/2">
-          <img src="@/assets/images/about.png" class="h-full w-full pr-8" alt="">
+      <div class="flex flex-wrap px-4">
+        <div class="w-auto md:w-1/2">
+          <img src="@/assets/images/about.png" class="h-full w-full" alt="">
         </div>
-        <div class="w-full md:w-1/2">
-          <div class="pl-8">
+        <div class="w-auto md:w-1/2">
+          <div class="sm:pl-8">
             <h1 class="font-bold text-4xl mb-10">About Me</h1>
             <h4 class="mb-10">Hello, I’m a Patrick, web-developer based on Paris. I have rich experience in web site design & building and customization. Also I am good at</h4>
             <div class="flex flex-wrap">
@@ -22,10 +22,10 @@
           </div>
         </div>
       </div>
-      <div class="w-full my-32">
+      <div class="w-auto mt-32 px-4">
         <h1 class="font-bold text-3xl text-center">What I Do </h1>
-        <div class="flex flex-wrap mt-10 justify-evenly">
-          <div class="max-w-sm mt-10 transition duration-500 ease-in-out rounded overflow-hidden shadow-lg transform hover:-translate-y-1 hover:scale-110 cursor-pointer">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div class="transition duration-500 ease-in-out rounded overflow-hidden shadow-lg transform hover:-translate-y-1 cursor-pointer">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
               <p class="opacity-50 text-base">
@@ -33,7 +33,7 @@
               </p>
             </div>
           </div>
-          <div class="max-w-sm mt-10 transition duration-500 ease-in-out rounded overflow-hidden shadow-lg transform hover:-translate-y-1 hover:scale-110 cursor-pointer">
+          <div class="transition duration-500 ease-in-out rounded overflow-hidden shadow-lg transform hover:-translate-y-1 cursor-pointer">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
               <p class="opacity-50 text-base">
@@ -41,7 +41,7 @@
               </p>
             </div>
           </div>
-          <div class="max-w-sm mt-10 transition duration-500 ease-in-out rounded overflow-hidden shadow-lg transform hover:-translate-y-1 hover:scale-110 cursor-pointer">
+          <div class="transition duration-500 ease-in-out rounded overflow-hidden shadow-lg transform hover:-translate-y-1 cursor-pointer">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
               <p class="opacity-50 text-base">
@@ -49,7 +49,7 @@
               </p>
             </div>
           </div>
-          <div class="max-w-sm mt-10 transition duration-500 ease-in-out rounded overflow-hidden shadow-lg transform hover:-translate-y-1 hover:scale-110 cursor-pointer">
+          <div class="transition duration-500 ease-in-out rounded overflow-hidden shadow-lg transform hover:-translate-y-1 cursor-pointer">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
               <p class="opacity-50 text-base">

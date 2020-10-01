@@ -1,9 +1,9 @@
 <template>
-  <section id="contact" class="w-full h-auto pt-20 bg-cover bg-center" :style="{'background-image': `url(${require('@/assets/images/footer-bg.png')})`}">
+  <section id="contact" class="w-full h-auto py-20 bg-cover bg-center bg-footer-texture">
     <div class="container mx-auto">
       <div class="font-bold text-3xl text-center mb-20">Contact Me</div>
-      <div class="flex justify-around items-center flex-wrap mb-20">
-        <div class="w-1/3 mt-10 max-w-sm transition duration-500 ease-in-out rounded overflow-hidden shadow-xl transform hover:-translate-y-1 hover:scale-110 cursor-pointer">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
+        <div class="transition duration-500 ease-in-out rounded overflow-hidden shadow-xl transform hover:-translate-y-1 cursor-pointer">
           <div class="px-6 py-4 flex flex-col justify-center items-center">
             <div class="h-20 w-20 rounded-full border-2 border-teal-500 flex items-center justify-center mb-8">
               <font-awesome-icon icon="location-arrow" />
@@ -13,7 +13,7 @@
               New york</div>
           </div>
         </div>
-        <div class="w-1/3 mt-10 max-w-sm transition duration-500 ease-in-out rounded overflow-hidden shadow-xl transform hover:-translate-y-1 hover:scale-110 cursor-pointer">
+        <div class="transition duration-500 ease-in-out rounded overflow-hidden shadow-xl transform hover:-translate-y-1 cursor-pointer">
           <div class="px-6 py-4 flex flex-col justify-center items-center">
             <div class="h-20 w-20 rounded-full border-2 border-teal-500 flex items-center justify-center mb-8">
               <font-awesome-icon icon="envelope" />
@@ -22,7 +22,7 @@
             <div>hoavandoan@gmail.com</div>
           </div>
         </div>
-        <div class="w-1/3 mt-10 max-w-sm transition duration-500 ease-in-out rounded overflow-hidden shadow-xl transform hover:-translate-y-1 hover:scale-110 cursor-pointer">
+        <div class="transition duration-500 ease-in-out rounded overflow-hidden shadow-xl transform hover:-translate-y-1 cursor-pointer">
           <div class="px-6 py-4 flex flex-col justify-center items-center">
             <div class="h-20 w-20 rounded-full border-2 border-teal-500 flex items-center justify-center mb-8">
               <font-awesome-icon icon="phone" />

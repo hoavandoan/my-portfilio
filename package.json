@@ -19,7 +19,8 @@
     "entypo": "^2.2.1",
     "tailwindcss": "^1.8.10",
     "vue": "^3.0.0-0",
-    "vue-cookies": "^1.7.4"
+    "vue-cookies": "^1.7.4",
+    "vue-i18n": "^8.21.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
@@ -33,6 +34,7 @@
     "node-sass": "^4.14.1",
     "sass": "^1.26.11",
     "sass-loader": "^10.0.2",
+    "vue-cli-plugin-i18n": "~1.0.1",
     "vue-particles": "^1.0.9"
   },
   "eslintConfig": {

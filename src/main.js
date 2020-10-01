@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import VueParticles from 'vue-particles'
+import VueI18n from 'vue-i18n'
 // import VueCookies from 'vue-cookies'
 import './assets/css/index.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -17,5 +18,6 @@ app.config.productionTip = false
 
 
 app.use(VueParticles)
+app.use(VueI18n)
 // app.use(VueCookies)
 app.mount('#app')
